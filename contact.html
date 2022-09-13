@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <mtea http-equiv="Page-Enter" content="BlendTrans(Duration=3.0)">
+    <title>Küçük İtalya</title>
+    <script src="https://kit.fontawesome.com/e4a78f0754.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./style/img/pizza.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/contact.css">
+    <script src="./script/script.js"></script>
+</head>
+<body>
+    <div class="menu">
+        <div class="logomain">
+            <img class="logo" src="./style/img/logo.png">
+            <img src="./style/img/pizzalogo.png">
+        </div>
+        <div class="menu-mobile" onclick="openmenu()">
+            <i id="menu-button" class="fa-solid fa-bars"></i>
+        </div>
+        <div id="menu-mobilec" onclick="closemenu()">
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+        <nav id="menuuu">
+            <li onclick="closemenu()"><a href="index.html">Home</a></li>
+            <li onclick="closemenu()"><a href="media.html">Media</a></li>
+            <li onclick="closemenu()"><a href="menü.html">Menu</a></li>
+            <li onclick="closemenu()"><a href="contact.html">Contact</a></li>
+        </nav>
+        <nav id="mainmenuuu">
+            <li"><a href="index.html">Home</a></li>
+            <li"><a href="media.html">Media</a></li>
+            <li"><a href="menü.html">Menu</a></li>
+            <li"><a href="contact.html">Contact</a></li>
+        </nav>
+    </div>
+
+    <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'Tunalı')" id="defaultOpen">Ankara Tunalı</button>
+        <button class="tablinks" onclick="openCity(event, 'Batıkent')" id="defaultOpen">Ankara Batıkent</button>
+      </div>
+     <div class="tabmain">
+        <div id="Tunalı" class="tabcontent">
+            <p>Tunalı Hilmi Tunalı Hilmi Cad. No.100</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12242.667998365661!2d32.8602266!3d39.9040873!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x49c8f57d02e5dc66!2zS8O8w6fDvGsgxLB0YWx5YQ!5e0!3m2!1str!2str!4v1659570077233!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        
+        <div id="Batıkent" class="tabcontent">
+            <p>Batıkent Meydan Batı Merkez Metro İstasyonu Altı 2/A</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d764.4564215418435!2d32.71550012398019!3d39.96764982788042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d337c70bef16a7%3A0xebe4fec4c3b5f501!2zS8O8w6fDvGsgxLB0YWx5YQ!5e0!3m2!1str!2str!4v1659570003873!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>  
+
+    <div id="tabcontentt">
+        <p>Tunalı Hilmi Tunalı Hilmi Cad. No.100</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12242.667998365661!2d32.8602266!3d39.9040873!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x49c8f57d02e5dc66!2zS8O8w6fDvGsgxLB0YWx5YQ!5e0!3m2!1str!2str!4v1659570077233!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div class="tabfix">
+        <p><a href="tel:+90 549 123 0549"><i class="fa-solid fa-phone"></i></a><br> +90 549 123 0549</p>
+        <p><a href="mailto: kucukitalya@gmail.com"><i class="fa-solid fa-envelope"></i></a><br> kucukitalya@gmail.com</p>
+    </div>
+
+    
+    
+
+</body>
+</html>

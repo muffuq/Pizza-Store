@@ -1,0 +1,18 @@
+body{
+    font-family: Hermes;
+}
+
+@font-face {
+    font-family: Hermes;
+    src: url(./font/Hermes.otf)
+  }
+  
+  @font-face {
+    font-family: Golden;
+    src: url(./font/Golden\ Plains_TR.ttf)
+  }
+  
+  @font-face {
+    font-family: Pistara;
+    src: url(./font/Pistara.otf)
+  }

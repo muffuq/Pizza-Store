@@ -1,0 +1,91 @@
+body{
+    font-family: Hermes;
+}
+
+@font-face {
+    font-family: Hermes;
+    src: url(./font/Hermes.otf)
+  }
+  
+  @font-face {
+    font-family: Golden;
+    src: url(./font/Golden\ Plains_TR.ttf)
+  }
+  
+  @font-face {
+    font-family: Pistara;
+    src: url(./font/Pistara.otf)
+  }
+  
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.ankaratunali{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin-top: 7rem;
+}
+
+.ankarabatikent{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.gallery{
+    width: 80%;
+    margin: 100px auto 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+}
+
+.gallery img{
+    width: 100%;
+    height: 80%;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.gallery img:hover{
+    transform: scale(0.8) rotate(-15deg);
+    border-radius: 20px;
+    box-shadow: 0 32px 75px rgba(0, 0, 0, 0.2);
+}
+
+.full-image{
+    position: fixed;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.full-image img{
+    width: 90%;
+    max-width: 800px;
+}
+
+.full-image span{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
